@@ -4,6 +4,7 @@ This code presents a webscrapping generic algorithm using SeleniumWebDriver for 
 
 This code also creates an application to send a smartphone push notification using the API Pushbullet and implements a smtplib authentication method using a API KEY so that when a given situation is detected those two different kinds of notifications will be send to the devices owner.
 
+```
         import imaplib                             
         import email
         import time
@@ -184,3 +185,4 @@ This code also creates an application to send a smartphone push notification usi
 
             break        
                 
+```
