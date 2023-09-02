@@ -1,9 +1,9 @@
 	const puppeteer = require('puppeteer');
 
-    const weblink = "https://www.pythonanywhere.com/user/YOUR_USER_HERE/tasks_tab/"  // edit here w/ you own task tab link
-    const login = "login"
-    const password = "password"
-    
+	const weblink = "https://www.pythonanywhere.com/user/YOUR_USER_HERE/tasks_tab/"  // edit here w/ you own task tab link
+	const login = "login"
+	const password = "password"
+	
 	async function main() {
 		// open browser
 		const browser = await puppeteer.launch({headless: "new"})
@@ -37,5 +37,5 @@
 		console.log("Renewed")
 		process.exit()
 	}
-
+	
 	main();
